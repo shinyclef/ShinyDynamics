@@ -1,0 +1,34 @@
+name: ShinyDynamics
+main: com.hotmail.shinyclef.shinydynamics.ShinyDynamics
+version: 0.1
+commands:
+    hoi:
+        description: Commands for the House of Illusions.
+        usage: /<command> help
+    test1:
+        description: ADD DESCRIPTION HERE
+        usage: /<command> [message]
+    test2:
+        description: ADD DESCRIPTION HERE
+        usage: /<command> [message]
+    test3:
+        description: ADD DESCRIPTION HERE
+        usage: /<command> [message]
+    test4:
+        description: ADD DESCRIPTION HERE
+        usage: /<command> [message]
+    sound:
+        description: Plays a sound at the command sender's location.
+        usage: /<command> <sound_file> <volume(0-1)> <pitch(0-2)>
+    copy:
+        description: ADD DESCRIPTION HERE
+        usage: /<command> [message]
+
+permissions:
+    ShinyQuest.*:
+        description: Gives access to all ShinyQuest commands.
+        children:
+            ShinyQuest.Something: true
+    ShinyVIP.something:
+        description: ADD DESCRIPTION HERE
+        default: op
